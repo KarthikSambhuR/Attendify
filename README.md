@@ -1,33 +1,46 @@
 # Attendify - Prototype
-## Features
-  1. Face Detection
-  2. Ability to add students without need for modification of code
-  3. Ability to remove students without many hassels
-  4. Uses SQLite and works without a server
 
-## Requirments
-  1. Python
-  1. DLib
-  2. face_recognition
-  3. OpenCV
-  4. NumPy (Versions up to 2.0 - 2.0 not included)
-  5. Pillow
-  6. Tkinter
-  7. SQLite3
-  8. pickle
+Attendify is a lightweight, standalone application designed for managing student attendance using face detection and recognition. It operates without the need for a server, ensuring simplicity and ease of use.
+
+## Features
+- **Face Detection**: Utilizes advanced algorithms for reliable face detection.
+- **Dynamic Student Management**:  
+  - Add students without modifying the code.  
+  - Remove students effortlessly with minimal steps.  
+- **Serverless Operation**: Stores data locally using SQLite.
+
+## Requirements
+To run Attendify, ensure the following are installed on your system:
+1. **Python**  
+2. **Libraries**:  
+   - DLib  
+   - face_recognition  
+   - OpenCV  
+   - NumPy (*up to version 2.0, excluding 2.0*)  
+   - Pillow  
+   - Tkinter  
+   - SQLite3  
+   - pickle  
 
 ## Installation
-  ### Installing dependencies
-  `python -m pip install dlib pillow opencv-python face-recognition `
-  
-  ### Errors
-  If dlib fails to install try using precompiled binaries
-  https://github.com/z-mahmud22/Dlib_Windows_Python3.x
-  
-## Running
-  `python attendify.py`  
-  
-## Images
+
+### Step 1: Install Dependencies
+Run the following command to install the required Python libraries:
+```bash
+python -m pip install dlib pillow opencv-python face-recognition
+```
+
+### Step 2: Resolving Installation Errors
+If you encounter issues installing DLib, consider using precompiled binaries from this repository:  
+[Precompiled DLib for Windows](https://github.com/z-mahmud22/Dlib_Windows_Python3.x)
+
+## Running the Application
+Execute the following command in your terminal to start Attendify:
+```bash
+python attendify.py
+```
+
+## Screenshots
 <p align="center">
   <img src="https://raw.githubusercontent.com/KarthikSambhuR/Attendify/refs/heads/main/screenshot/add.png" alt="Add" height="300">
   <img src="https://raw.githubusercontent.com/KarthikSambhuR/Attendify/refs/heads/main/screenshot/main.png" alt="Main" height="300">
