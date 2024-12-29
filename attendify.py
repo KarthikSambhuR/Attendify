@@ -123,7 +123,6 @@ def update_frame():
 update_frame()
 
 # Function to open the Add Students window
-# Function to open the Add Students window
 def open_add_students():
     add_window = tk.Toplevel(root)
     add_window.title("Add Students")
@@ -213,7 +212,7 @@ def open_remove_students():
                 c.execute('DELETE FROM student WHERE id=?', (student_id,))
                 conn.commit()
                 conn.close()
-                update_list()  # Refresh the list after removal
+                update_list()
 
             remove_button = tk.Button(remove_window, text="Remove", command=remove_student, font=("Poppins", 12, "bold"), bg="#F38484", bd=0)
             remove_button.grid(row=row, column=1, padx=10)
@@ -221,8 +220,5 @@ def open_remove_students():
 
     update_list()
 
-# Run the Tkinter main loop
 root.mainloop()
-
-# Release the webcam
 video_capture.release()
