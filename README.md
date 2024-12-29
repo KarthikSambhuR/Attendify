@@ -11,6 +11,9 @@
   3. OpenCV
   4. NumPy (Versions up to 2.0 - 2.0 not included)
   5. Pillow
+  6. Tkinter
+  7. SQLite3
+  8. pickle
 ## Installation
   ### Installing dependencies
   `python -m pip install dlib pillow opencv-python face-recognition `
