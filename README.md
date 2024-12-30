@@ -46,3 +46,17 @@ python attendify.py
   <img src="https://raw.githubusercontent.com/KarthikSambhuR/Attendify/refs/heads/main/screenshot/main.png" alt="Main" height="300">
   <img src="https://raw.githubusercontent.com/KarthikSambhuR/Attendify/refs/heads/main/screenshot/remove.png" alt="Remove" height="300">
 </p>
+
+## Collaborators 
+
+<div align="left">
+  <a href="https://github.com/KarthikSambhuR">
+    <img src="https://images.weserv.nl/?url=github.com/KarthikSambhuR.png?v=4&h=75&w=75&fit=cover&mask=circle&maxage=7d" width="75" height="75"" alt="Karthik Sambhu R"/>
+  </a>
+  <a href="https://github.com/geo-cherian-mathew-2k28">
+    <img src="https://images.weserv.nl/?url=github.com/geo-cherian-mathew-2k28.png?v=4&h=75&w=75&fit=cover&mask=circle&maxage=7d" width="75" height="75"" alt="Geo Cherian Mathew"/>
+  </a>
+  <a href="https://github.com/EbenAbrahamChandy">
+    <img src="https://images.weserv.nl/?url=github.com/EbenAbrahamChandy.png?v=4&h=75&w=75&fit=cover&mask=circle&maxage=7d" width="75" height="75"" alt="Eben Abraham Chandy"/>
+  </a>
+</div>
