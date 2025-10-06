@@ -1,4 +1,4 @@
-# Attendify - Prototype
+# Attendify - Prototype 
 
 Attendify is a lightweight, standalone application designed for managing student attendance using face detection and recognition. It operates without the need for a server, ensuring simplicity and ease of use.
 
